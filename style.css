@@ -1,20 +1,40 @@
+html{
+	height: 100%;
+	background-color: lightgrey;
+}
+
+.header{
+	display: flex;
+	height: 100px;
+	justify-content: space-around;
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+#gridPrompt{
+	height: 70px;
+	width: 400px;
+	align-self: center;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	font-size: 25px;
+}
 
 .container{
 	display: flex;
-	border-style: solid;
-	border-color: black;
-	background-color: lightblue;
+	width: 100%;
 	flex-direction: row;
 	flex-wrap:wrap;
 	justify-content: center;
-	align-items: flex-start;
-
-	
+	align-items: stretch;
 }
 
 .divs{
-	height: 52px;
-	width: 120px;
- 	margin: 1px 1px 1px 1px;
+	display: flex;
+	height: 12px;
+	width: 12px;
+ 	margin: .5px .5px .5px .5px;
   	background-color: #555;
 }
